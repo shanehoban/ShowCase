@@ -74,7 +74,7 @@
 				<p>The following steps should do it:</p>
 
 					<ol>
-						<li>Download the latest version of ShowCase (GitHub)</li>
+						<li><a href="https://github.com/shanehoban/ShowCase/tree/master" target="_blank">Download the latest version of ShowCase (GitHub)</a></li>
 						<li>Update <code>inc/config.php</code> with your MySQL connection details</li>
 						<li>Now put all this stuff in a new folder e.g. <code>/showcase/</code> on your server</li>
 						<li>In your browser, simply navigate to that new folder<br> e.g. <code>http://www.yourdomain.com/showcase/</code></li>

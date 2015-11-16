@@ -33,29 +33,29 @@ $(document).ready(function(){
 
 	});
 
-	$('.login-btn').on('click', function(){
+	$('.login-btn').on('click', function(e){
 		$('.login-overlay').fadeIn();
 		$('.login-username').focus();
 	});
 
-	$('.close-login').on('click', function(){
+	$('.close-login').on('click', function(e){
 		$('.login-overlay').fadeOut();
 	});
 
-	$('.alert .fa-times').on('click', function(){
+	$('.alert .fa-times').on('click', function(e){
 		$(this).parent().fadeOut();
 	});
 
 	// Info Page
 
-		$('.info-show-licence').on('click', function(){
+		$('.info-show-licence').on('click', function(e){
 			$(this).hide();
 			$('.info-licence-text').slideDown();
 		});
 
  	// Install Page
 
- 		$('.install-hidden-form-button').on('click', function(){
+ 		$('.install-hidden-form-button').on('click', function(e){
 			$('.hidden-install-form').submit();
 		});
 
@@ -84,7 +84,7 @@ var initSetup = function(){
 	setupDetails = [];
 	setupCount = 0;
 
-	$('.setup-restart').on('click', function(){
+	$('.setup-restart').on('click', function(e){
 		location.reload();
 	});
 
@@ -95,7 +95,7 @@ var initSetup = function(){
 		}
 	});
 
-	$('.setup-btn').on('click', function(){
+	$('.setup-btn').on('click', function(e){
 		var index = parseInt($(this).attr('data-setup'));
 		var $input = $('input[data-setup="' + index + '"]');
 		var val = ($(this).hasClass('setup-skip')) ? $input.attr('data-default') : $input.val();
@@ -147,21 +147,21 @@ var initSetup = function(){
 
 var initManagePage = function(){
 
-	$('.add-edit-tt').on('click', function(){
-		event.stopPropagation();
+	$('.add-edit-tt').on('click', function(e){
+		e.stopPropagation();
 		$('.tooltip-text').fadeOut();
 		$(this).parent().find('.tooltip-text').fadeIn();
 	});
 
-	$('.tooltip-text').on('click', function(){
-		event.stopPropagation();
+	$('.tooltip-text').on('click', function(e){
+		e.stopPropagation();
 	});
 
-	$('.close-edit-tt').on('click', function(){
+	$('.close-edit-tt').on('click', function(e){
 		$(this).parent().fadeOut();
 	});
 
-	$('.delete-project-btn').on('click', function(){
+	$('.delete-project-btn').on('click', function(e){
 		if(confirm('Are you sure you want to delete this project?')){
 			$('.edit-input-method').val('delete');
 			$('.manage-form').submit();
