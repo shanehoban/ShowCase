@@ -32,6 +32,17 @@ The following steps should do it:
 
 ---
 
+#### Using ShowCase
+
+Place your projects in the sc_projects folder and ShowCase will automatically pick them up. Don't worry - they won't automatically be displayed in your ShowCase until you manually add them in. See screenshot below for managing projects.
+
+Additionally, you can maneuver your projects, and sections around ShowCase on the settings page - also pictured below.
+
+Lastly, to add sections, just type the name of the section in the section box on the manage projects page when adding a project. These are automatically linked, so you just use the same section name on different projects to use the same section. Deleting sections via the settings page will not delete the projects, just the associate between the project and section.
+
+
+---
+
 #### Updating ShowCase
 
 Just do a `git pull origin master` and push to your server - ya dingus.
