@@ -44,6 +44,8 @@ Psst... Don't forget to ensure your `config.php` is up to date after a pull!
 
 ![](http://i.imgur.com/v86oT7t.png)
 
+---
+
 ##### ShowCase Settings
 
 ![](http://i.imgur.com/Sb5zphX.png)
