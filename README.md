@@ -37,3 +37,13 @@ The following steps should do it:
 Just do a `git pull origin master` and push to your server - ya dingus.
 
 Psst... Don't forget to ensure your `config.php` is up to date after a pull!
+
+---
+
+##### Managing Projects
+
+![](http://i.imgur.com/v86oT7t.png)
+
+##### ShowCase Settings
+
+![](http://i.imgur.com/Sb5zphX.png)
